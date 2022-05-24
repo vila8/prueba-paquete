@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "email_sender"
+version = "0.1.0"
+description = ""
+license = "Proprietary"
+authors = ["Jesús Vila <22890621+vila8@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.27.1"
+sentry-sdk = "^1.5.12"
+asyncio = "^3.4.3"
+aiohttp = "^3.8.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
